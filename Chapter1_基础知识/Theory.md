@@ -59,7 +59,7 @@
    transform.rotation = target.rotation; // 旋转对齐
    transform.SetParent(parent); // 设置父子关系
    ```
-
+  
 2. **场景视图快捷操作**：
    - 按住Ctrl拖动物体 = 复制
    - 按住V拖动物体边缘 = 顶点吸附
@@ -78,6 +78,7 @@
 
 2. **视图操作不流畅**：
    - 调整Editor Quality设置
+     > [问题：如何调整Editor Quality设置？](Answers/Editor_Quality_Settings.md)
    - 关闭不必要的Gizmos
    - 减少场景中的实时光源
 
